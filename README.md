@@ -57,20 +57,20 @@ O projeto segue a arquitetura MVC (Model - View - Controller) e está dividido e
 
 No arquivo `application.properties`, configure o banco de dados (caso utilize MariaDB):
 
-///```properties
+// ```properties
 spring.datasource.url=jdbc:mariadb://localhost:3307/seubanco
 spring.datasource.username=root
 spring.datasource.password=
 spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
 
 spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true// 
+spring.jpa.show-sql=true // 
 
 ### ▶️ Executando o Projeto
 1. Inicie o banco de dados (se necessário).
 2. Execute a aplicação pela sua IDE ou pelo terminal com:
 
-//./mvnw spring-boot:run// 
+//./mvnw spring-boot:run // 
 
 3. Acesse os endpoints:
 
