@@ -1,5 +1,4 @@
 # Construção de Serviço Web
-# Projeto Spring Boot - Duas APIs no Mesmo Projeto
 
 Este projeto Spring Boot foi desenvolvido para fins acadêmicos e consiste na construção de **duas APIs dentro do mesmo projeto**:
 
